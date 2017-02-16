@@ -9,6 +9,121 @@
  * Changes to this files will be ignored by GIT. *
  *****************************************************/
 
- body {
- 	
- }
+
+body {
+  margin: 60px;
+  position: absolute;
+  height: calc(100% - 120px);
+  width: calc(100% - 120px);
+  background: #000;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Default styles.
+ */
+
+.dimmed {
+  color: #fff;
+  font-size: 30px;
+}
+
+.normal {
+  color: #fff;
+  font-size: 40px;
+}
+
+.bright {
+  color: #fff;
+  font-size: 30px;
+}
+
+.xsmall {
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.small {
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.medium {
+  font-size: 30px;
+  line-height: 35px;
+  color: #fff;
+}
+
+.large {
+  font-size: 65px;
+  line-height: 65px;
+  color: #fff;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+  font-size: 100px;
+  color: #fff;
+}
+
+.thin {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 120px
+	color: #fff;}
+
+.light {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: #fff;
+
+}
+
+.regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+
+}
+
+.bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+header {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  border-bottom: 3px groove #fff;
+  line-height: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 50%;
+  
+}
