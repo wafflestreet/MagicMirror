@@ -13,19 +13,19 @@ Module.register("compliments",{
 	defaults: {
 		compliments: {
 			morning: [
-				"Good morning, yungbull",
-				"Ard, good morning - real talk",
-				"Soft pretzels."
+				"Good morning!",
+				"Coffee?",
+				"Enjoy your day!"
 			],
 			afternoon: [
-				"Soft pretzels.",
-				"Lookin good yungbull",
-				"Yoooo where's my cheesesteak?"
+				"Looking good today!",
+				"Who wants to make a wawa run?",
+				"Good Afternoon"
 			],
 			evening: [
-				"Yoooo where's my cheesesteak?",
-				"Lookin good yungbull",
-				"Soft pretzels."
+				"Good Evening",
+				"Have a good night!",
+				"Arrivederci"
 			]
 		},
 		updateInterval: 30000,
