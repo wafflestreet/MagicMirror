@@ -24,9 +24,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/**
- * Default styles.
- */
+header {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  border-bottom: 3px groove #fff;
+  line-height: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 50%;
+}
 
 .dimmed {
   color: #fff;
@@ -110,20 +123,7 @@ body {
   text-align: left;
 }
 
-header {
-  text-transform: uppercase;
-  font-size: 35px;
-  font-family: "Roboto Condensed";
-  font-weight: 400;
-  border-bottom: 3px groove #fff;
-  line-height: 15px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-sup {
-  font-size: 50%;
-  line-height: 50%;
-  
+.sketch-font {
+  font-family: "Sketch 3D", sans-serif;
+  font-weight: 100;
 }

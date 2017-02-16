@@ -13,19 +13,19 @@ Module.register("compliments",{
 	defaults: {
 		compliments: {
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Good morning!",
+				"Coffee?",
+				"Enjoy your day!"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Looking good today!",
+				"Who wants to make a wawa run?",
+				"Good Afternoon"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Good Evening",
+				"Have a good night!",
+				"Arrivederci"
 			]
 		},
 		updateInterval: 30000,
@@ -144,7 +144,7 @@ Module.register("compliments",{
 
 		var compliment = document.createTextNode(complimentText);
 		var wrapper = document.createElement("div");
-		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright";
+		wrapper.className = this.config.classes ? this.config.classes : "sketch-font xlarge bright";
 		wrapper.appendChild(compliment);
 
 		return wrapper;
