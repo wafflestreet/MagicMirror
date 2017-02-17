@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Chunkfive";
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local("Chunkfive"),
+		local("Chunkfive"),
+		url("Chunk/Chunkfive-webfont.woff"),
+		url("Chunk/Chunkfive-webfont.ttf");
+}
