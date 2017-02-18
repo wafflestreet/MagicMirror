@@ -9,8 +9,8 @@ var config = {
     ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],
  
     language: 'en',
-    timeFormat: 24,
-    units: 'metric',
+    timeFormat: 12,
+    units: 'imperial',
  
     modules: [
         {
@@ -25,18 +25,17 @@ var config = {
             position: 'top_left'
         },
         {
-            module: 'calendar',
-            header: 'ICS Calendar',
-            position: 'top_left',
-            config: {
-                calendars: [
-                    {
-                        symbol: 'calendar-check-o ',
-                        url: 'webcal:https://calendar.google.com/calendar/ical/icscharter.com_ndtqvc2qt8mek6cnhoin28o19g%40group.calendar.google.com/public/basic.ics'
-                    }
-                ]
-            }
+        module: "calendar",
+        position: "top_left",   // This can be any of the regions. Best results in left or right regions.
+        config: {
+             calendars: [
+        {
+            url: 'https://calendar.google.com/calendar/ical/icscharter.com_ndtqvc2qt8mek6cnhoin28o19g%40group.calendar.google.com/public/basic.ics',
+            symbol: 'calendar',
         },
+    ],
+        }
+    },
         {
             module: 'compliments',
             position: 'lower_third',
