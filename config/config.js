@@ -30,13 +30,13 @@ var config = {
             position: "top_left",   // This can be any of the regions. Best results in left or right regions.
             config: {
                 calendars: [
-        {
-            url: 'https://calendar.google.com/calendar/ical/icscharter.com_ndtqvc2qt8mek6cnhoin28o19g%40group.calendar.google.com/public/basic.ics',
-            symbol: 'calendar',
+                    {
+                        url: 'https://calendar.google.com/calendar/ical/icscharter.com_ndtqvc2qt8mek6cnhoin28o19g%40group.calendar.google.com/public/basic.ics',
+                        symbol: 'calendar',
+                    },
+                ],
+            }
         },
-    ],
-        }
-    },
         {
             module: 'compliments',
             position: 'lower_third',
@@ -62,8 +62,6 @@ var config = {
                 }
             }
         },
- 
-     
         {
             module: 'currentweather',
             position: 'top_right',
@@ -83,22 +81,21 @@ var config = {
                 appid: '84df37660a1df6173a198b4848c9dc93'
             }
         },
-        {
-            module: 'newsfeed',
-            position: 'bottom_bar',
-            config: {
-                feeds: [
-                    {
-                        title: "New York Times",
-                        url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-                    }
-                ],
-                showSourceTitle: true,
-                showPublishDate: true
-            }
-        },
+        // {
+        //     module: 'twitControl',
+        //     position: 'bottom_center',
+        //     config: {
+        //         maxNumTweets: 5,
+        //         streamType: 'followings',
+        //         api_keys: {
+        //             consumer_key: 'Q9FnRO7zOSMNIdkjuQzo9Mz3K',
+        //             consumer_secret: 'Wnmtfr2j4dEH39l8SfTliUsSwkaM5gBOgXpeXSZkE5JUUPwXDF',
+        //             access_token_key: '582869015-1GqM8xEdapVXzALhEEWmIKgPB7CXMQu2okb0Vrow',
+        //             access_token_secret: 'omZP2EQarNQc9mKqmudk4QnIACj9qjwPnls1L7usm62VN'
+        //         }
+        //     }
+        // },
     ]
- 
 };
  
 /*************** DO NOT EDIT THE LINE BELOW ***************/
