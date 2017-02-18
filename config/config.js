@@ -25,11 +25,11 @@ var config = {
             position: 'top_left'
         },
         {
-        module: "calendar",
-        header: "ICS Calendar",
-        position: "top_left",   // This can be any of the regions. Best results in left or right regions.
-        config: {
-             calendars: [
+            module: "calendar",
+            header: "ICS Calendar",
+            position: "top_left",   // This can be any of the regions. Best results in left or right regions.
+            config: {
+                calendars: [
         {
             url: 'https://calendar.google.com/calendar/ical/icscharter.com_ndtqvc2qt8mek6cnhoin28o19g%40group.calendar.google.com/public/basic.ics',
             symbol: 'calendar',
