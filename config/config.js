@@ -94,20 +94,20 @@ var config = {
                 appid: '84df37660a1df6173a198b4848c9dc93'
             }
         },
-        {
-            module: 'twitControl',
-            position: 'bottom_center',
-            config: {
-                maxNumTweets: 5,
-                streamType: 'user',
-                api_keys: {
-                    consumer_key: 'Q9FnRO7zOSMNIdkjuQzo9Mz3K',
-                    consumer_secret: 'Wnmtfr2j4dEH39l8SfTliUsSwkaM5gBOgXpeXSZkE5JUUPwXDF',
-                    access_token_key: '582869015-1GqM8xEdapVXzALhEEWmIKgPB7CXMQu2okb0Vrow',
-                    access_token_secret: 'omZP2EQarNQc9mKqmudk4QnIACj9qjwPnls1L7usm62VN',
-                }
-            }
-        },
+        // {
+        //     module: 'twitControl',
+        //     position: 'bottom_center',
+        //     config: {
+        //         maxNumTweets: 5,
+        //         streamType: 'user',
+        //         api_keys: {
+        //             consumer_key: 'Q9FnRO7zOSMNIdkjuQzo9Mz3K',
+        //             consumer_secret: 'Wnmtfr2j4dEH39l8SfTliUsSwkaM5gBOgXpeXSZkE5JUUPwXDF',
+        //             access_token_key: '582869015-1GqM8xEdapVXzALhEEWmIKgPB7CXMQu2okb0Vrow',
+        //             access_token_secret: 'omZP2EQarNQc9mKqmudk4QnIACj9qjwPnls1L7usm62VN',
+        //         }
+        //     }
+        // },
     ]
 };
  
