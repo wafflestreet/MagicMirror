@@ -56,10 +56,10 @@ sup {
   font-size: 30px;
 }
 
-.xsmall {
-  font-size: 30px;
-  line-height: 40px;
-  color: #fff;
+.padding {
+  font-size: 90px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .small {
@@ -126,7 +126,6 @@ sup {
 .sketch-font {
   font-family: "Sketch 3D", sans-serif;
   font-weight: 400;
-  font-size: 160px;
 }
 
 .chunk-font {

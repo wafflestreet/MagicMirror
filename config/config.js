@@ -42,21 +42,34 @@ var config = {
             position: 'lower_third',
  
                 config: {
-                updateInterval: 30000,
+                updateInterval: 20000,
                 compliments: {
                     morning: [
                         "Have a great day!",
+                        "Looking good!",
+                        "Spring is right around the corner!",
+                        "Go Griffins!",
+                        "Welcome to Independence Charter School",
                         "Good Morning",
+                        "If you fell down yesterday, stand up today",
+                        "If you can dream it, you can do it",
                         "Is it Friday Yet?"
                     ],
                     afternoon: [
                         "Keep going your almost there.",
+                        "How was lunch?",
+                        "Spring is right around the corner",
+                        "Your doing a great job today, Keep it up!",
                         "Welcome to Independence Charter School",
+                        "The best preparation for tomorrow is doing your best today.",
+                        "Congratulations to our take flight travelers!",
+                        "If opportunity doesn't knock, build a door.",
                         "Have you been a global citizen today?"
                     ],
                     evening: [
                         "What are you still doing here?",
                         "Go home! You deserve a break!",
+                        "If you can dream it, you can do it",
                         "Have a good night!"
                     ]
                 }
@@ -81,20 +94,20 @@ var config = {
                 appid: '84df37660a1df6173a198b4848c9dc93'
             }
         },
-        // {
-        //     module: 'twitControl',
-        //     position: 'bottom_center',
-        //     config: {
-        //         maxNumTweets: 5,
-        //         streamType: 'followings',
-        //         api_keys: {
-        //             consumer_key: 'Q9FnRO7zOSMNIdkjuQzo9Mz3K',
-        //             consumer_secret: 'Wnmtfr2j4dEH39l8SfTliUsSwkaM5gBOgXpeXSZkE5JUUPwXDF',
-        //             access_token_key: '582869015-1GqM8xEdapVXzALhEEWmIKgPB7CXMQu2okb0Vrow',
-        //             access_token_secret: 'omZP2EQarNQc9mKqmudk4QnIACj9qjwPnls1L7usm62VN'
-        //         }
-        //     }
-        // },
+        {
+            module: 'twitControl',
+            position: 'bottom_center',
+            config: {
+                maxNumTweets: 5,
+                streamType: 'user',
+                api_keys: {
+                    consumer_key: 'Q9FnRO7zOSMNIdkjuQzo9Mz3K',
+                    consumer_secret: 'Wnmtfr2j4dEH39l8SfTliUsSwkaM5gBOgXpeXSZkE5JUUPwXDF',
+                    access_token_key: '582869015-1GqM8xEdapVXzALhEEWmIKgPB7CXMQu2okb0Vrow',
+                    access_token_secret: 'omZP2EQarNQc9mKqmudk4QnIACj9qjwPnls1L7usm62VN',
+                }
+            }
+        },
     ]
 };
  
