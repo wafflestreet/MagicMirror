@@ -42,17 +42,17 @@ sup {
 }
 
 .dimmed {
-  color: #fff;
+  color: red;
   font-size: 30px;
 }
 
 .normal {
-  color: #fff;
+  color: blue;
   font-size: 40px;
 }
 
 .bright {
-  color: #fff;
+  color: yellow;
   font-size: 30px;
 }
 
