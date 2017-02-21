@@ -41,7 +41,7 @@ sup {
   line-height: 50%;
 }
 
-.dimmed {
+/*.dimmed {
   color: #fff;
   font-size: 30px;
 }
@@ -91,7 +91,7 @@ sup {
 .thin {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 120px
+  font-size: 80px
 	color: #fff;}
 
 .light {
@@ -121,7 +121,7 @@ sup {
 
 .align-left {
   text-align: left;
-}
+}*/
 
 .sketch-font {
   font-family: "Sketch 3D", sans-serif;
