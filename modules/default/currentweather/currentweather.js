@@ -176,7 +176,7 @@ Module.register("currentweather",{
 		}
 
 		var large = document.createElement("div");
-		large.className = "large light";
+		large.className = "large light sketch-font";
 
 		var weatherIcon = document.createElement("span");
 		weatherIcon.className = "wi weathericon " + this.weatherType;
