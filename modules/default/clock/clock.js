@@ -61,8 +61,8 @@ Module.register("clock",{
 		var secondsWrapper = document.createElement("sup");
 		var periodWrapper = document.createElement("span");
 		// Style Wrappers
-		dateWrapper.className = "date normal medium";
-		timeWrapper.className = "time bright large light";
+		dateWrapper.className = "date normal padding";
+		timeWrapper.className = "time sketch-font xlarge";
 		secondsWrapper.className = "dimmed";
 
 		// Set content of wrappers.

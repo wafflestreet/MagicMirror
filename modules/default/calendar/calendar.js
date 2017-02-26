@@ -219,7 +219,7 @@ Module.register("calendar", {
 			}
 			//timeWrapper.innerHTML += ' - '+ moment(event.startDate,'x').format('lll');
 			//console.log(event);
-			timeWrapper.className = "time light";
+			timeWrapper.className = "time thin";
 			eventWrapper.appendChild(timeWrapper);
 
 			wrapper.appendChild(eventWrapper);
