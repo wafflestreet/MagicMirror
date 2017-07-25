@@ -47,9 +47,11 @@ var config = {
                     morning: [
                         "Have a great day!",
                         "Looking good!",
-                        "Spring is right around the corner!",
+                        "Summer rocks!",
+                        "Springboard is awesome!",
                         "Go Griffins!",
                         "Welcome to Independence Charter School",
+                        "Does anyone know whats 3d printing in Tr. Greg's room?",
                         "Good Morning",
                         "If you fell down yesterday, stand up today",
                         "If you can dream it, you can do it",
@@ -58,7 +60,9 @@ var config = {
                     afternoon: [
                         "Keep going your almost there.",
                         "How was lunch?",
-                        "Spring is right around the corner",
+                        "Springboard is awesome!",
+                        "Does anyone know whats 3d printing in Tr. Greg's room?",
+                        "Summer rocks",
                         "Your doing a great job today, Keep it up!",
                         "Welcome to Independence Charter School",
                         "The best preparation for tomorrow is doing your best today.",
